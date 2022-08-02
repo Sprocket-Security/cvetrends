@@ -1,7 +1,11 @@
 <div align="center">
-
+ 
 # cvet
 
+  <img width="1030" alt="02082022_12 53-000469" src="https://user-images.githubusercontent.com/8538866/182379468-62be89b8-a4d3-4232-987a-8576906e0a63.png">
+
+ <br><br>
+ 
 cvet is a Python utility for pulling actionable vulnerabilities from cvetrends.com
 
 Tool checks if vulnerabilities published within the specified timeframe have more than two GitHub Repos published.
@@ -77,5 +81,9 @@ cvet also allows you to specify a Slack webhook to notify on run using the `-n` 
 ```
 cvet -n https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX -rt 2 -tf 24hrs
 ```
+
+An example Slack notification is shown below:
+
+<img width="877" alt="02082022_12 54-000470" src="https://user-images.githubusercontent.com/8538866/182379759-238c40a8-383f-4808-95c6-928eaf537f85.png">
 
 
