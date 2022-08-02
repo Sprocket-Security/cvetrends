@@ -1,0 +1,36 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Potentially Actionable Vulnerability Found: *CVE_VAL*"
+      }
+    },
+    {
+      "type": "section",
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*GitHub Repos:* REPOS"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Severity:* SEV"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*EPSS:* SCORE"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Assigner:* EMAIL"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Description:*\nDESC"
+        }
+      ]
+    }
+  ]
+}
