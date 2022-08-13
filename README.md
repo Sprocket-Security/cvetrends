@@ -31,14 +31,14 @@ pipx install cvet
 If this tool is not yet availible via PyPi, you can install it directly from the repository using:
 
 ```
-git clone https://github.com/puzzlepeaches/cvetrends.git
+https://github.com/Sprocket-Security/cvetrends.git
 cd cvetrends && pip3 install .
 ```
 
 For development, clone the repository and install it locally using poetry.
 
 ```
-git clone https://github.com/puzzlepeaches/cvetrends.git && cd cvetrends
+git clone https://github.com/Sprocket-Security/cvetrends.git && cd cvetrends
 poetry shell 
 poetry install
 ```
