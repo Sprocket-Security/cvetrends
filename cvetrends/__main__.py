@@ -63,7 +63,7 @@ def main(time_frame, notify, repo_threshold) -> None:
     try:
         # Parsing response and constructing table
         for i in response.json()["data"]:
-            if len(i["github_repos"]) > repo_threshold:
+            if len(i["github_repos"]) >= repo_threshold:
                 table.add_row(i["cve"], i["description"], f"{len(i['github_repos'])}")
     except Exception as a:
         print(f"Something went wrong: {a}")

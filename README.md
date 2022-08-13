@@ -6,10 +6,9 @@
 
  <br><br>
  
-cvet is a Python utility for pulling actionable vulnerabilities from cvetrends.com
+cvet is a Python utility for pulling actionable vulnerabilities from [cvetrends.com](https://cvetrends.com/).
 
-Tool checks if vulnerabilities published within the specified timeframe have more than two GitHub Repos published.
-
+Find out more information at our blog, [COMING SOON]().
 <br>
 
 [Installation](#installation) /
@@ -22,7 +21,7 @@ Tool checks if vulnerabilities published within the specified timeframe have mor
 
 ## Installation
 
-bhp supports all major operating systems and can be installed for the PyPi using the following command:
+cvet can be installed from PyPi using the following command:
 
 ```
 pipx install cvet
@@ -79,7 +78,7 @@ cvet day -rt 2
 cvet also allows you to specify a Slack webhook to notify on run using the `-n` or `--notify` flag. This is useful if you want to be notified of new vulnerabilities and run this tool on a cron.
 
 ```
-cvet -n https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX -rt 2 -tf 24hrs
+cvet -n https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX -rt 2 
 ```
 
 An example Slack notification is shown below:
