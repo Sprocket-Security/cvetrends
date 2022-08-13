@@ -31,7 +31,7 @@ pipx install cvet
 If this tool is not yet availible via PyPi, you can install it directly from the repository using:
 
 ```
-https://github.com/Sprocket-Security/cvetrends.git
+git clone https://github.com/Sprocket-Security/cvetrends.git
 cd cvetrends && pip3 install .
 ```
 
