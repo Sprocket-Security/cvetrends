@@ -24,7 +24,7 @@ Find out more information at our [blog](https://www.sprocketsecurity.com/resourc
 cvet can be installed from PyPi using the following command:
 
 ```
-pipx install cvet
+pipx install cvetrends
 ```
 
 If this tool is not yet availible via PyPi, you can install it directly from the repository using:
