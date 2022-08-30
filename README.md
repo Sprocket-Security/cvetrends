@@ -8,7 +8,7 @@
  
 cvet is a Python utility for pulling actionable vulnerabilities from [cvetrends.com](https://cvetrends.com/).
 
-Find out more information at our blog, [COMING SOON]().
+Find out more information at our [blog](https://www.sprocketsecurity.com/resources/cve-trends-command-line-tool).
 <br>
 
 [Installation](#installation) /
